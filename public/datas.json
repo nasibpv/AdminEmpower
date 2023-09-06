@@ -1,0 +1,62 @@
+{
+    
+    "users": [
+      {
+        "id": "1",
+        "usertype": "admin",
+        "email": "admin@.com",
+        "password": "111",
+        "name":"admin"
+      },
+      {
+        "id": "2",
+        "usertype": "staff",
+        "email": "email@.com",
+        "password": "123",
+        "name":"nithin"
+
+      }
+    ],
+    "staff": [
+      
+        { 
+          "staffId":"001",
+          "name": "akil",
+          "email": "email@.com",
+          "phoneNumber": "00000",
+          "department":"BCA"
+        },
+        {
+          "staffId":"002",
+            "name": "vimal",
+            "email": "email@.com",
+            "phoneNumber": "00000",
+            "department":"BA-English"
+          },
+          {
+            "staffId":"003",
+            "name": "akil",
+            "email": "email@.com",
+            "phoneNumber": "00000",
+            "department":"B-com"
+          }
+      ],
+      "student": [
+        {
+          "name": "nithin",
+          "email": "email@.com",
+          "ph.no": "00000"
+        },
+        {
+            "name": "nithin",
+            "email": "email@.com",
+            "ph.no": "00000"
+          },
+          {
+            "name": "nithin",
+            "email": "email@.com",
+            "ph.no": "00000"
+          }
+      ]
+  }
+  

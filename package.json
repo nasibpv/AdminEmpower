@@ -2,7 +2,7 @@
   "name": "office_managemennt",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://nasibpv.github.io/AdminEmpower",
+  "homepage":"http://nasibpv.github.io/",
   "dependencies": {
     "@mui/icons-material": "^5.11.16",
     "@testing-library/jest-dom": "^5.16.5",

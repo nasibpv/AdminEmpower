@@ -45,17 +45,17 @@
         {
           "name": "nithin",
           "email": "email@.com",
-          "ph.no": "00000"
+          "ph-no": "00000"
         },
         {
             "name": "nithin",
             "email": "email@.com",
-            "ph.no": "00000"
+            "ph-no": "00000"
           },
           {
             "name": "nithin",
             "email": "email@.com",
-            "ph.no": "00000"
+            "ph-no": "00000"
           }
       ]
   }

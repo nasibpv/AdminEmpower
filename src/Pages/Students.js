@@ -2,9 +2,17 @@ import {React, useState, useEffect} from 'react'
 import Table from 'react-bootstrap/Table';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import { useDispatch, useSelector } from 'react-redux';
+import { students } from '../Actions/restAction';
+
 function Students() {
 
-  
+  const dispatch=useDispatch()
+  const {student}=useSelector(state=>state.students)
+  // console.log(student);
+  useEffect(()=>{
+    dispatch(students())
+  },[])
 
   return (
     <div>
@@ -30,14 +38,14 @@ function Students() {
         </thead>
         <tbody>
          {
-            // allStudent?.map((item,index)=>(
+            student?.map((item,index)=>(
           <tr>
-            {/* <td>{index+1}</td> */}
-            {/* <td>{item.sname}</td> */}
-            {/* <td>{item.position}</td> */}
+            <td>{index+1}</td>
+            <td>{item.name}</td>
+            <td>{item.email}</td>
             <td><Link ><a className='moredetails'>moredetails</a></Link></td>
           </tr>
-          // ))
+          ))
           }
         </tbody>
       </Table>

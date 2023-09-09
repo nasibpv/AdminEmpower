@@ -30,3 +30,19 @@ export const staffData=(state={staffs:[]},action)=>{
                 return state
     }
 }
+
+
+export const studentData=(state={student:[]},action)=>{
+    switch(action.type){
+        case SUCCESS:
+            return{
+                student:action.payload.student
+            }
+            case FAIL :
+                return{
+                    student:action.payload
+                }
+            default:
+                return state
+    }
+}

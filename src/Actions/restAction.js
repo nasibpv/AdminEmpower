@@ -44,3 +44,25 @@ export const staff = () => async (dispatch) => {
        })
     }
 }
+
+export const students = () => async (dispatch) => {
+    //     const { data } = await axios.get('/datas.json')
+    // console.log(data);
+        try {
+                // url in axios    
+            const { data } = await axios.get('/datas.json')
+            // console.log(data);
+            dispatch(
+                {
+                payload:data,
+                type:SUCCESS
+                }
+            )
+        }
+        catch (eror) {
+           dispatch({
+            payload:eror,
+            type:FAIL
+           })
+        }
+    }

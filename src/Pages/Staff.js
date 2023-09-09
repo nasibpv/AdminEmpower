@@ -84,10 +84,7 @@ function Staff() {
                   <p>Email : {profile.email}</p>
                   <Button style={{textAlign:"center"}} onClick={handleClick} variant="primary">Close</Button>
                 </form>
-              </div> 
-      
-              
-              
+              </div>               
               :  ' ' }
       </div>
      
